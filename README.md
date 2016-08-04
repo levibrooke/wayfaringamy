@@ -1,0 +1,2 @@
+# wayfaringamy
+A travel blog
