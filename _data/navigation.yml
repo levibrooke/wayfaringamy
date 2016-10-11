@@ -1,0 +1,16 @@
+#main navigation links
+nav:
+    - title: "About"
+      url: /about/
+        
+    - title: "Travel"
+      url: /travel/
+    
+    - title: "Thoughts"
+      url: /thoughts/
+    
+    - title: "Newsletter"
+      url: /newsletter/
+    
+    - title: "Contact"
+      url: /contact/

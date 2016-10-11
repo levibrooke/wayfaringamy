@@ -1,0 +1,24 @@
+<header class="featured-header">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-toggle" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ site.url }}">
+                    <img id="logo" alt="Wayfaring Amy" src="{{ site.dropbox }}/assets/logo.png" />
+                </a>
+            </div>
+            <div id="nav-toggle" class="collapse navbar-collapse">
+                <ul id="menu-header" class="nav navbar-nav navbar-right">
+                    {% for nav in site.data.navigation.nav %}
+                    <li><a href="{{ site.url }}{{ nav.url }}" class="header_menu-item">{{ nav.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
