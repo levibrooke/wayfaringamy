@@ -1,5 +1,4 @@
 ---
-# all.js
 ---
 
 {% include bootstrap.min.js %}

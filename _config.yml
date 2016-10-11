@@ -1,63 +1,57 @@
-# Site settings
+---
 title: Wayfaring Amy
-email: amy@wayfaringamy.com
-url: http://localhost:4000
-
-# Meta
-description: 
-google-verification: -cfjXrFA-ZOxgLkJsOw-NiTznjYEDiDu08Rlz6kh8bI
-
-# Extras
-google-analytics:
-gosquared: GSN-280144-X
-disqus:
-dropbox: https://dl.dropboxusercontent.com/u/39419177/wayfaringamy.com
-
-# Blog settings
+timezone: UTC
 collections:
-    travel:
-        title: Travel
-        output: true
-        permalink: "/travel/:title/"
-    thoughts:
-        title: Thoughts
-        output: true
-        permalink: "/thoughts/:title/"
-    calendar:
-        title: Travel Dates
-        output: false
-        
+  posts:
+    title: Posts
+    output: true
+  thoughts:
+    title: Thoughts
+    output: true
+    permalink: "/thoughts/:title/"
+  travel:
+    title: Travel
+    output: true
+    permalink: "/travel/:title/"
+  calendar:
+    title: Travel Dates
+    output: false
+  uploads:
+    title: Uploads
+    output: true
 defaults:
--
-  scope:
+- scope:
     path: ''
-    type: "travel"
+    type: travel
   values:
     layout: default
-    has_comments:
+    has_comments: 
     master: true
-    meta.sticky: "no"
-- 
-  scope:
+    meta.sticky: 'no'
+- scope:
     path: ''
-    type: "thoughts"
+    type: thoughts
   values:
     layout: default
-    has_comments:
+    has_comments: 
     master: true
-    meta.sticky: "no"
-- 
-  scope:
+    meta.sticky: 'no'
+- scope:
     path: ''
-    type: "calendar"
+    type: calendar
   values:
     master: false
-
-# Build settings
+email: amy@wayfaringamy.com
+url: http://localhost:4000
+description: 
+google-verification: "-cfjXrFA-ZOxgLkJsOw-NiTznjYEDiDu08Rlz6kh8bI"
+google-analytics: 
+gosquared: GSN-280144-X
+disqus: 
+dropbox: https://dl.dropboxusercontent.com/u/39419177/wayfaringamy.com
 markdown: kramdown
 sass:
-    sass_dir: _sass
-#    style: compressed
+  sass_dir: _sass
 exclude:
 - CNAME
 - README.md

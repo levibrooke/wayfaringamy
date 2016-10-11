@@ -1,7 +1,7 @@
 ---
 title: About
-tagline: Get to know me
 permalink: "/about/"
+tagline: Get to know me
 layout: page
 ---
 

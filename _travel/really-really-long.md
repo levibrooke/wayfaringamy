@@ -1,9 +1,11 @@
 ---
 title: Here's a Really, Really Long Title. Really.
-category: test
-date: 2016-09-30
+date: 2016-09-30 00:00:00 Z
+categories:
+- test
 featured-image: 166.jpg
-excerpt: Master cleanse portland live-edge, occupy literally twee edison bulb jean shorts butcher. Yuccie wayfarers craft beer disrupt.
+excerpt: Master cleanse portland live-edge, occupy literally twee edison bulb jean
+  shorts butcher. Yuccie wayfarers craft beer disrupt.
 ---
 
 Disrupt offal try-hard four dollar toast blue bottle. Thundercats plaid irony neutra scenester, DIY franzen woke ugh occupy celiac air plant. Flexitarian you probably haven't heard of them tacos fap. Biodiesel air plant skateboard lumbersexual offal, aesthetic kinfolk mumblecore trust fund tumeric. Retro green juice fixie, hashtag chartreuse viral gastropub asymmetrical ennui crucifix. Flexitarian hot chicken sustainable hammock, craft beer brunch air plant hexagon. Pickled edison bulb gastropub paleo, seitan dreamcatcher authentic butcher art party shabby chic XOXO flexitarian hammock.
