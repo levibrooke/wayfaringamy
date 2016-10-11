@@ -42,7 +42,7 @@ defaults:
   values:
     master: false
 email: amy@wayfaringamy.com
-url: http://localhost:4000
+url: wayfaringamy.siteleaf.net
 description: 
 google-verification: "-cfjXrFA-ZOxgLkJsOw-NiTznjYEDiDu08Rlz6kh8bI"
 google-analytics: 
