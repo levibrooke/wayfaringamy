@@ -1,7 +1,7 @@
 ---
 title: Contact
-tagline: 
 permalink: "/contact/"
+tagline: 
 layout: page
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Newsletter
-tagline: 
 permalink: "/newsletter/"
+tagline: 
 layout: page
 ---
 
