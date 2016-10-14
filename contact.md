@@ -1,7 +1,7 @@
 ---
-title: Contact
+title: Periodic Travel Updates
 permalink: "/contact/"
-tagline: 
+tagline: I promise I won't spam you!
 layout: page
 ---
 
