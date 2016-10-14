@@ -6,4 +6,8 @@ tagline: My story
 layout: page
 ---
 
-Hi! My name is Amy.
+<section class="row" id="">
+    <div class="col-md-10 col-md-offset-1">
+        
+    </div>
+</section>
