@@ -63,10 +63,14 @@
         
         <div class="border-top"></div>
 
-        {% if page_handle == 'contact' or 'newsletter' %}
+        {% if page_handle == 'contact' %}
+            {{ content }}
+        {% elsif page_handle == 'newsletter' %}
+            {{ content }}
+        {% elsif page_handle == 'about' %}
             {{ content }}
         {% else %}
-            <header class="featured-post">
+            <header class="featured-header">
                 {% include header.html %}
                 {% include featured-post.html %}
             </header>
