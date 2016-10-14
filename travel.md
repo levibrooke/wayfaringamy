@@ -1,9 +1,9 @@
 ---
-title: Travel
+title: Where in the World
 permalink: "/travel/"
-tagline: A tagline goes here.
-layout: default
+tagline: Stories from Everywhere
 featured-image: ghana-1.jpg
+layout: default
 ---
 
 <section class="featured-post container">
