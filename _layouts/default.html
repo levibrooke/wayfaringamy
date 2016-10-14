@@ -40,8 +40,8 @@
         {% assign page_handle = 'home' %}
     {% elsif page.url == '/about/' %}
         {% assign page_handle = 'about' %}
-    {% elsif page.url == '/subscribe/' %}
-        {% assign page_handle = 'subscribe' %}
+    {% elsif page.url == '/newsletter/' %}
+        {% assign page_handle = 'newsletter' %}
     {% elsif page.url == '/contact/' %}
         {% assign page_handle = 'contact' %}
     {% elsif page.url == '/travel/' %}
@@ -63,9 +63,15 @@
         
         <div class="border-top"></div>
 
-        {% include header.html %}
-        
-        {{ content }}
+        {% if page_handle = 'contact' or 'newsletter' %}
+            {{ content }}
+        {% else %}
+            <header class="featured-post">
+                {% include header.html %}
+                {% incldue featured-post.html %}
+            </header>
+            {{ content }}
+        {% endif %}
         
         {% include footer.html %}
         
