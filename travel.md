@@ -1,7 +1,8 @@
 ---
-title: Where in the World
+title: Travel
 permalink: "/travel/"
-tagline: Stories from Everywhere
+header: Where in the World
+tagline: Stories from everywhere
 featured-image: ghana-1.jpg
 layout: default
 ---
