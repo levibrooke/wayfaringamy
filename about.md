@@ -1,7 +1,8 @@
 ---
-title: Not Another Travel Blog
+title: About
 permalink: "/about/"
-tagline: My Story
+header: Not Another Travel Blog
+tagline: My story
 layout: page
 ---
 
