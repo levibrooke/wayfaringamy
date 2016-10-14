@@ -1,7 +1,8 @@
 ---
 title: Newsletter
 permalink: "/newsletter/"
-tagline: 
+header: Periodic Travel Updates
+tagline: I promise I won't spam you
 layout: page
 ---
 
