@@ -63,17 +63,13 @@
         
         <div class="border-top"></div>
 
-        {% if page_handle == 'contact' %}
-            {{ content }}
-        {% elsif page_handle == 'newsletter' %}
-            {{ content }}
-        {% elsif page_handle == 'about' %}
-            {{ content }}
-        {% else %}
+        {% if page_handle == 'home' %}
             <header class="featured-header">
                 {% include header.html %}
                 {% include featured-post.html %}
             </header>
+            {{ content }}
+        {% else %}
             {{ content }}
         {% endif %}
         
