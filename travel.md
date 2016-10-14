@@ -4,7 +4,7 @@ permalink: "/travel/"
 header: Where in the World
 tagline: Stories from everywhere
 featured-image: ghana-1.jpg
-layout: default
+layout: page
 ---
 
 <main class="container" id="" role="main">

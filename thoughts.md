@@ -3,7 +3,7 @@ title: Thoughts
 permalink: "/thoughts/"
 header: You Are What You Think
 tagline: Change your thoughts and you change your world
-layout: default
+layout: page
 ---
 
 <main class="container" id="" role="main">
