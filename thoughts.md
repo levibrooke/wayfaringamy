@@ -1,6 +1,7 @@
 ---
-title: You Are What You Think
+title: Thoughts
 permalink: "/thoughts/"
+header: You Are What You Think
 tagline: Change your thoughts and you change your world
 layout: default
 ---
