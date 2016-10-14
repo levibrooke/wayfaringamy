@@ -6,29 +6,29 @@ layout: default
 featured-image: ghana-1.jpg
 ---
 
-    <section class="featured-post container">
-        <div class="row">
-            <article class="col-md-6">
-                <header class="col-md-12">
-                    <h1 class="page-title"><span>{{ page.title }}</span></h1>
-                </header>
-                <footer class="post-meta col-md-12">
-                    <p>{{ page.tagline }}</p>
-                </footer>
-            </article>
-            <aside class="email-signup col-md-4 col-md-offset-2">
-                <p>Something about signing up for my newsletter because it will be awesome.</p>
-                <form action="" method="post" class="signup-form">
-                    <input type="email" name="Email" placeholder="Your Email..." id="">
-                    <input type="hidden" name="location" id="location" value="home">
-                    <div style="position:absolute; left: -5000px;" aria-hidden="true">
-                        <input type="text" name="" tabindex="">
-                    </div>
-                    <button type="submit" name="subsribe" id="">Sign Up</button>
-                </form>
-            </aside>
-        </div>
-    </section>
+<section class="featured-post container">
+    <div class="row">
+        <article class="col-md-6">
+            <header class="col-md-12">
+                <h1 class="page-title"><span>{{ page.title }}</span></h1>
+            </header>
+            <footer class="post-meta col-md-12">
+                <p>{{ page.tagline }}</p>
+            </footer>
+        </article>
+        <aside class="email-signup col-md-4 col-md-offset-2">
+            <p>Something about signing up for my newsletter because it will be awesome.</p>
+            <form action="" method="post" class="signup-form">
+                <input type="email" name="Email" placeholder="Your Email..." id="">
+                <input type="hidden" name="location" id="location" value="home">
+                <div style="position:absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="" tabindex="">
+                </div>
+                <button type="submit" name="subsribe" id="">Sign Up</button>
+            </form>
+        </aside>
+    </div>
+</section>
 <style>.featured-header:before {background-image: url('{{ site.dropbox}}/photos/{{ page.featured-image }}');}</style>
 </header>
 <main class="container" id="" role="main">
