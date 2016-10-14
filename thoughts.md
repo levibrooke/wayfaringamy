@@ -6,6 +6,7 @@ tagline: Change your thoughts and you change your world
 layout: default
 ---
 
+<header class="featured-header">
     <section class="featured-post container">
         <div class="row">
             <article class="col-md-6">

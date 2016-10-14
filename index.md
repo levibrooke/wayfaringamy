@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<header class="featured-header">
     <section class="featured-post container">
         <div class="row">
             {% assign sticky_posts = site.documents | where:"meta.sticky","yes" %}
