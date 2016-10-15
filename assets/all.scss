@@ -142,7 +142,7 @@ nav a {
 }
 .featured-post {
     article { margin: 50px 0;}
-    header a, header span { background: #499384; color: #fff; font-family: "ff-tisa-web-pro"; font-weight: 700; transition: opacity .3s ease-in-out; line-height: 2em; box-shadow: 10px 0 0 #499384, -10px 0 0 #499384; }
+    header a, header span, header h2 { background: #499384; color: #fff; font-family: "ff-tisa-web-pro"; font-weight: 700; transition: opacity .3s ease-in-out; line-height: 2em; box-shadow: 10px 0 0 #499384, -10px 0 0 #499384; }
     header a:hover, header a:active, header a:visited {text-decoration: none; opacity: 0.8;}
     footer p, a { font-family: "letter-gothic-std"; font-weight: 700; letter-spacing: 1px; color: #fff; transition: opacity .3s ease-in-out; }
     footer a:hover, footer a:active {text-decoration: none; opacity: 0.8;}
