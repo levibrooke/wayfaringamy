@@ -3,8 +3,8 @@ title: Travel
 permalink: "/travel/"
 header: Where in the World
 tagline: Stories from everywhere
-featured-image: ghana-1.jpg
 layout: blog
+featured-image: ghana-1.jpg
 ---
 
 <section class="row" id="posts-row">

@@ -3,8 +3,8 @@ title: Thoughts
 permalink: "/thoughts/"
 header: You Are What You Think
 tagline: Change your thoughts and you change your world
-featured-image: road.jpg
 layout: blog
+featured-image: road.jpg
 ---
 
 <section class="row" id="posts-row">
