@@ -3,8 +3,8 @@ title: About
 permalink: "/about/"
 header: Not Another Travel Blog
 tagline: My story
+featured-image: boat.jpg
 layout: page
-featured-image: 
 ---
 
 Why is it I can so willingly plunge 10,000 feet from an airplane as I yell and laugh in the face of death but I am petrified when it comes to making other life decisions?
