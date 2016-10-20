@@ -121,6 +121,14 @@ nav a {
     }
 }
 
+/* Global styles ---------*/
+//.col-xs-20, .col-sm-20, .col-md-20, .col-lg-20 {
+//    position: relative;
+//    min-height: 1px;
+//    padding-right: 10px;
+//    padding-left: 10px;
+//}
+
 /* Front page --------*/
 .featured-header {
     background: #272727;
@@ -142,7 +150,7 @@ nav a {
 }
 .featured-post {
     article { margin: 50px 0;}
-    header a, header span, header h2 { background: #499384; color: #fff; font-family: "ff-tisa-web-pro"; font-weight: 700; transition: opacity .3s ease-in-out; line-height: 2em; box-shadow: 10px 0 0 #499384, -10px 0 0 #499384; }
+    header a, header span, header h2 { background: #499384; color: #fff; font-family: "ff-tisa-web-pro"; font-weight: 700; transition: opacity .3s ease-in-out; line-height: 2em; box-shadow: 10px 0 0 #499384, -10px 0 0 #499384; display: inline-block; }
     header a:hover, header a:active, header a:visited {text-decoration: none; opacity: 0.8;}
     footer p, a { font-family: "letter-gothic-std"; font-weight: 700; letter-spacing: 1px; color: #fff; transition: opacity .3s ease-in-out; }
     footer a:hover, footer a:active {text-decoration: none; opacity: 0.8;}
@@ -206,12 +214,36 @@ nav a {
 .instagram {
     margin-top: 100px;
     > a {text-align: center; margin: 20px 0; display: block;}
-    #single {padding: 0; background-color: #272727;}
-    #single:hover img {opacity: 0.8; transition: opacity .3s ease-in-out;}
-    #single:hover .likes {visibility: visible; opacity: 1;}
+    .insta-link {padding: 0; background-color: #272727; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; }
+    .insta-link:hover img {opacity: 0.8; transition: opacity .3s ease-in-out;}
+    .insta-link:hover .likes {visibility: visible; opacity: 1;}
+    .insta-image {object-fit: cover; object-position: 50% 50%; display: block; max-width: 100%;}
     .likes {position: absolute; top: 50%; margin-top: -8px; left: 0; right: 0; font-size: 16px; color: #fff; text-align: center; visibility: hidden; opacity: 0; font-family: "letter-gothic-std"; line-height: 1em; transition: visibility .3s ease-in-out, opacity .3s ease-in-out;}
     .likes i {padding-right: 10px; font-size: 16px;}
 }
+
+// option 1
+//.instagram {
+//    margin-top: 100px;
+//    > a {text-align: center; margin: 20px 0; display: block;}
+//    #single {padding: 0; background-color: #272727; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; }
+//    #single:hover img {opacity: 0.8; transition: opacity .3s ease-in-out;}
+//    #single:hover .likes {visibility: visible; opacity: 1;}
+//    .likes {position: absolute; top: 50%; margin-top: -8px; left: 0; right: 0; font-size: 16px; color: #fff; text-align: center; visibility: hidden; opacity: 0; font-family: "letter-gothic-std"; line-height: 1em; transition: visibility .3s ease-in-out, opacity .3s ease-in-out;}
+//    .likes i {padding-right: 10px; font-size: 16px;}
+//}
+
+// option 2
+//.instagram {
+//    margin-top: 100px;
+//    > a {text-align: center; margin: 20px 0; display: block;}
+//    .single {padding: 0; background-color: #272727; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; height: 250px; }
+//    .test:hover .single {opacity: 0.8; transition: opacity .3s ease-in-out;}
+//    .test:hover .likes {visibility: visible; opacity: 1;}
+//    .likes {position: absolute; top: 50%; margin-top: -8px; left: 0; right: 0; font-size: 16px; color: #fff; text-align: center; visibility: hidden; opacity: 0; font-family: "letter-gothic-std"; line-height: 1em; transition: visibility .3s ease-in-out, opacity .3s ease-in-out;}
+//    .likes i {padding-right: 10px; font-size: 16px;}
+//}
+
 .site-footer {
     background: #272727;
     .site-links, .site-follow, aside {margin: 25px 0 50px; }

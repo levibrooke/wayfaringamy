@@ -24,18 +24,20 @@ defaults:
     path: ''
     type: travel
   values:
-    layout: default
+    layout: blog
     has_comments: 
     master: true
     meta.sticky: 'no'
+    excerpt:
 - scope:
     path: ''
     type: thoughts
   values:
-    layout: default
+    layout: blog
     has_comments: 
     master: true
     meta.sticky: 'no'
+    excerpt:
 - scope:
     path: ''
     type: calendar
