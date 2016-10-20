@@ -28,7 +28,7 @@ defaults:
     has_comments: 
     master: true
     meta.sticky: 'no'
-    excerpt:
+    excerpt: 
 - scope:
     path: ''
     type: thoughts
@@ -37,7 +37,7 @@ defaults:
     has_comments: 
     master: true
     meta.sticky: 'no'
-    excerpt:
+    excerpt: 
 - scope:
     path: ''
     type: calendar
